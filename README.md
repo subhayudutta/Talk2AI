@@ -4,7 +4,7 @@ Engage in intelligent conversations and get instant, insightful responses with T
 
 ![Talk2AI Screenshot](./talk2AI_screenshot.png)
 
-Visit the live app: [Talk2AI](https://talk2csv.onrender.com/)
+Visit the live app: [Talk2AI](https://talk2ai-szapptrrtmt9sqcz6b8ajeh.streamlit.app/)
 
 ## Features
 
