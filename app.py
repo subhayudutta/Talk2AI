@@ -2,12 +2,16 @@ import streamlit as st
 import os
 import google.generativeai as genai
 from google.api_core import exceptions as google_exceptions
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
-api_key = os.getenv('GOOGLE_API_KEY')
-os.environ['GOOGLE_API_KEY'] = api_key
-genai.configure(api_key=api_key)
+# load_dotenv()
+# api_key = os.getenv('GOOGLE_API_KEY')
+# os.environ['GOOGLE_API_KEY'] = api_key
+# genai.configure(api_key=api_key)
+
+api_key1 = st.secrets["google_api_key"]
+os.environ['GOOGLE_API_KEY'] = api_key1
+genai.configure(api_key=api_key1)
 
 default_temperature = 0.9
 
